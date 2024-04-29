@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421829256097",
+    "project_id": "localelections-40315",
+    "storage_bucket": "localelections-40315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421829256097:android:933c1bb2f162492e47a1e0",
+        "android_client_info": {
+          "package_name": "com.example.localelection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWG8v9drGdwMy6EozopPPA15Qwtnnk0n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

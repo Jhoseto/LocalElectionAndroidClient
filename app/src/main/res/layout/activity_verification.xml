@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#757575"
+    tools:context=".VerificationActivity">
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/verErrorText"
+        android:layout_width="409dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FF6F6F"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/verificationCodeFeald"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:backgroundTint="#656565"
+        android:backgroundTintMode="src_over"
+        android:ems="10"
+        android:hint="Напишете верификационния КОД..."
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:shadowColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/verificationAgreeButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,MissingConstraints,TextFields,VisualLintBounds,VisualLintTextFieldSize"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Button
+        android:id="@+id/verificationAgreeButton"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#736A6565"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Потвърди"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962"
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
